@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/x-icon" href="Images/Icons/cart.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="CSS/index.css">
+
+    <title>Joy Shopping</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <!-- HEADER -->
+
+        <header>
+            <h1><i class="bi bi-cart3"></i> Joy Shopping</h1>
+            <p>Every purchase brings a little joy!</p>
+        </header>
+
+        <!-- NAVBAR -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="#" onclick="goHome(); return false;">
+                    <i class="bi bi-cart3"></i> Joy Shopping
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#shoppingNavbar"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="shoppingNavbar">
+                    <ul class="navbar-nav mx-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#" onclick="goHome(this); return false;">
+                                <i class="bi bi-house"></i> Home
+                            </a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                <i class="bi bi-person"></i> Clothing
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="#" onclick="displayItems(1, this); return false;">
+                                        Menswear
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#" onclick="displayItems(2, this); return false;">
+                                        Womenswear
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="displayItems(3, this); return false;">
+                                <i class="bi bi-egg-fried"></i> Food
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="displayItems(4, this); return false;">
+                                <i class="bi bi-house-gear"></i> Home Appliances
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="displayItems(5, this); return false;">
+                                <i class="bi bi-book"></i> Books
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- CONTENT -->
+
+        <div class="content">
+
+            <h2 id="contentHeading">Featured Products</h2>
+
+            <!-- CAROUSEL -->
+
+            <div class="carousel-container">
+                <div class="carousel-track">
+
+                    <img src="Images/Foods/Chicken Biriyani.png" alt="Chicken Biriyani">
+                    <img src="Images/Foods/Chicken 65.png" alt="Chicken 65">
+                    <img src="Images/Foods/Butter Chicken.png" alt="Butter Chicken">
+                    <img src="Images/Foods/Chicken Rice.png" alt="Chicken Rice">
+                    <img src="Images/Foods/Chicken Shawarma.png" alt="Chicken Shawarma">
+                    <img src="Images/Foods/Grill Chicken.png" alt="Grill Chicken">
+
+                    <img src="Images/Mens Wear/Hoodie.png" alt="Hoodie">
+                    <img src="Images/Mens Wear/Jeans.png" alt="Jeans">
+                    <img src="Images/Mens Wear/Kadai.png" alt="Kadai">
+                    <img src="Images/Mens Wear/Mandala.png" alt="Mandala">
+                    <img src="Images/Mens Wear/Sneakers.png" alt="Sneakers">
+                    <img src="Images/Mens Wear/Watch.png" alt="Watch">
+
+                    <img src="Images/Womens Wear/Half Saree.png" alt="Half Saree">
+                    <img src="Images/Womens Wear/Hand Bag.png" alt="Hand Bag">
+                    <img src="Images/Womens Wear/Heels.png" alt="Heels">
+                    <img src="Images/Womens Wear/Maxi.png" alt="Maxi">
+                    <img src="Images/Womens Wear/Pajamas.png" alt="Pajamas">
+                    <img src="Images/Womens Wear/Short Top.png" alt="Short Top">
+
+                    <img src="Images/Books/Game Of Thrones.jpg" alt="Game Of Thrones">
+                    <img src="Images/Books/Harry Potter.jpg" alt="Harry Potter">
+                    <img src="Images/Books/I am Legend.jpg" alt="I am Legend">
+                    <img src="Images/Books/One Piece.jpg" alt="One Piece">
+                    <img src="Images/Books/The Lord Of The Rings.jpg" alt="The Lord Of The Rings">
+                    <img src="Images/Books/The Wild Robot.jpg" alt="The Wild Robot">
+
+                    <img src="Images/Home Appliances/Air Fryer.png" alt="Air Fryer">
+                    <img src="Images/Home Appliances/Chandelier.png" alt="Chandelier">
+                    <img src="Images/Home Appliances/Dishwasher.png" alt="Dishwasher">
+                    <img src="Images/Home Appliances/Robot Vaccum Cleaner.png" alt="Robot Vacuum Cleaner">
+                    <img src="Images/Home Appliances/Television.png" alt="Television">
+                    <img src="Images/Home Appliances/Washing Machine.png" alt="Washing Machine">
+
+                </div>
+            </div>
+
+            <!-- PRODUCTS -->
+
+            <div class="myRow"></div>
+
+        </div>
+
+        <!-- FOOTER -->
+
+        <footer>
+            <p>© 2026 Shopping | All Rights Reserved</p>
+        </footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="JS/index.js"></script>
+
+</body>
+
+</html>

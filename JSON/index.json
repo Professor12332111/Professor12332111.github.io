@@ -1,0 +1,216 @@
+[
+    {
+        "filter_id": 1,
+        "category": "Menswear",
+        "products": [
+            {
+                "product_id": 10,
+                "product_name": "Black Hoodie",
+                "imgSrc": "Images/Mens Wear/Hoodie.png",
+                "price": 1299
+            },
+            {
+                "product_id": 11,
+                "product_name": "Blue Jeans",
+                "imgSrc": "Images/Mens Wear/Jeans.png",
+                "price": 1499
+            },
+            {
+                "product_id": 12,
+                "product_name": "Silver Kadai",
+                "imgSrc": "Images/Mens Wear/Kadai.png",
+                "price": 899
+            },
+            {
+                "product_id": 13,
+                "product_name": "Mandala T-Shirt",
+                "imgSrc": "Images/Mens Wear/Mandala.png",
+                "price": 799
+            },
+            {
+                "product_id": 14,
+                "product_name": "Sneakers",
+                "imgSrc": "Images/Mens Wear/Sneakers.png",
+                "price": 1999
+            },
+            {
+                "product_id": 15,
+                "product_name": "E-Watch",
+                "imgSrc": "Images/Mens Wear/Watch.png",
+                "price": 2499
+            }
+        ]
+    },
+
+    {
+        "filter_id": 2,
+        "category": "Womenswear",
+        "products": [
+            {
+                "product_id": 16,
+                "product_name": "Half Saree",
+                "imgSrc": "Images/Womens Wear/Half Saree.png",
+                "price": 2499
+            },
+            {
+                "product_id": 17,
+                "product_name": "Louis Vitton Bag",
+                "imgSrc": "Images/Womens Wear/Hand Bag.png",
+                "price": 1499
+            },
+            {
+                "product_id": 18,
+                "product_name": "High Heels",
+                "imgSrc": "Images/Womens Wear/Heels.png",
+                "price": 1299
+            },
+            {
+                "product_id": 19,
+                "product_name": "Flower Maxi",
+                "imgSrc": "Images/Womens Wear/Maxi.png",
+                "price": 1799
+            },
+            {
+                "product_id": 20,
+                "product_name": "Pajamas",
+                "imgSrc": "Images/Womens Wear/Pajamas.png",
+                "price": 899
+            },
+            {
+                "product_id": 21,
+                "product_name": "Short Top",
+                "imgSrc": "Images/Womens Wear/Short Top.png",
+                "price": 699
+            }
+        ]
+    },
+
+    {
+        "filter_id": 3,
+        "category": "Food",
+        "products": [
+            {
+                "product_id": 22,
+                "product_name": "Chicken Biriyani",
+                "imgSrc": "Images/Foods/Chicken Biriyani.png",
+                "price": 220
+            },
+            {
+                "product_id": 23,
+                "product_name": "Chicken 65",
+                "imgSrc": "Images/Foods/Chicken 65.png",
+                "price": 180
+            },
+            {
+                "product_id": 24,
+                "product_name": "Butter Chicken",
+                "imgSrc": "Images/Foods/Butter Chicken.png",
+                "price": 280
+            },
+            {
+                "product_id": 25,
+                "product_name": "Chicken Rice",
+                "imgSrc": "Images/Foods/Chicken Rice.png",
+                "price": 160
+            },
+            {
+                "product_id": 26,
+                "product_name": "Chicken Shawarma",
+                "imgSrc": "Images/Foods/Chicken Shawarma.png",
+                "price": 150
+            },
+            {
+                "product_id": 27,
+                "product_name": "Grill Chicken",
+                "imgSrc": "Images/Foods/Grill Chicken.png",
+                "price": 450
+            }
+        ]
+    },
+
+    {
+        "filter_id": 4,
+        "category": "Home Appliances",
+        "products": [
+            {
+                "product_id": 28,
+                "product_name": "Air Fryer",
+                "imgSrc": "Images/Home Appliances/Air Fryer.png",
+                "price": 4999
+            },
+            {
+                "product_id": 29,
+                "product_name": "Chandelier",
+                "imgSrc": "Images/Home Appliances/Chandelier.png",
+                "price": 3499
+            },
+            {
+                "product_id": 30,
+                "product_name": "Dishwasher",
+                "imgSrc": "Images/Home Appliances/Dishwasher.png",
+                "price": 32999
+            },
+            {
+                "product_id": 31,
+                "product_name": "Robot Vacuum Cleaner",
+                "imgSrc": "Images/Home Appliances/Robot Vaccum Cleaner.png",
+                "price": 24999
+            },
+            {
+                "product_id": 32,
+                "product_name": "Television",
+                "imgSrc": "Images/Home Appliances/Television.png",
+                "price": 29999
+            },
+            {
+                "product_id": 33,
+                "product_name": "Washing Machine",
+                "imgSrc": "Images/Home Appliances/Washing Machine.png",
+                "price": 24999
+            }
+        ]
+    },
+
+    {
+        "filter_id": 5,
+        "category": "Books",
+        "products": [
+            {
+                "product_id": 34,
+                "product_name": "Game Of Thrones",
+                "imgSrc": "Images/Books/Game Of Thrones.jpg",
+                "price": 599
+            },
+            {
+                "product_id": 35,
+                "product_name": "Harry Potter",
+                "imgSrc": "Images/Books/Harry Potter.jpg",
+                "price": 499
+            },
+            {
+                "product_id": 36,
+                "product_name": "I Am Legend",
+                "imgSrc": "Images/Books/I am Legend.jpg",
+                "price": 399
+            },
+            {
+                "product_id": 37,
+                "product_name": "One Piece",
+                "imgSrc": "Images/Books/One Piece.jpg",
+                "price": 699
+            },
+            {
+                "product_id": 38,
+                "product_name": "The Lord Of The Rings",
+                "imgSrc": "Images/Books/The Lord Of The Rings.jpg",
+                "price": 799
+            },
+            {
+                "product_id": 39,
+                "product_name": "The Wild Robot",
+                "imgSrc": "Images/Books/The Wild Robot.jpg",
+                "price": 449
+            }
+        ]
+    }
+]
